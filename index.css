@@ -1,0 +1,49 @@
+.grid-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-template-rows: auto auto auto  ;
+  grid-column-start: 1 ;
+  grid-column-end: 5;
+  column-gap: 24px;
+  row-gap: 30px;
+  grid-auto-flow: column;
+  padding: 15px 15px 15px 15px;
+  margin: 100px 150px 150px 120px ;
+  width: 70%;
+  height:75%;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  border: 4px solid black ;
+  border-radius: 30px;
+  background-color: floralwhite;
+}
+
+h1{
+  text-align: right;
+  margin: auto auto auto auto;
+  padding: 10px;
+  margin: 30px 40px 30px 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 400%;
+  font-weight: 900;
+  border-bottom: 10px solid brown;
+  border-right: 10px solid brown;
+ color: darkslategrey;
+  
+}
+.forStyle {
+  
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 4px solid black;
+  border-radius: 50px;
+  position: relative;
+  height: 150px;
+  background-color: white;
+}
+
+body{
+ background-color: whitesmoke;
+}
